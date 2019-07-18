@@ -9,11 +9,14 @@
 * [travis](http://xyz.com)
 
 ### Modules
-#### `categories.schema.js` - mongoose required in
-#### `categories.js` - class Categories with CRUD method
-#### `categories.test.js` - test for `categories.js`
-#### `mongo.js` - class Model with CRUD method
 #### `index.js` - mongoose with mongoDB localhost, `mongoose.connect()` & `mongoose.disconnect()`
+#### `mongo.js` - class Model with CRUD method
+#### `categories.schema.js` - categories schema with mongoose required in
+#### `categories.js` - class Categories extends from `mongo.js`
+#### `categories.test.js` - test for `categories.js`
+#### `products.schema.js` - products schema with mongoose required in
+#### `products.js` - class Categories with CRUD method
+#### `products.test.js` - test for `products.js`
 #### `supergoose.js` - test against mongo with fake server and fake data
 
 ##### Exported Values and Methods
@@ -31,3 +34,7 @@
   
 #### Tests
 * `npm test`
+
+#### UML
+![UML](./image/UML.jpg)
+
