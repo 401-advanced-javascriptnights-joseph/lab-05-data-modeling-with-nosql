@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose",
+    "lint": "eslint **/*.js",
     "test-watch": "jest --watchAll --verbose"
   },
   "jest": {
