@@ -6,7 +6,7 @@
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
+* [travis]([![Build Status](https://travis-ci.com/401-advanced-javascriptnights-joseph/lab-05-data-modeling-with-nosql.svg?branch=master)](https://travis-ci.com/401-advanced-javascriptnights-joseph/lab-05-data-modeling-with-nosql))
 
 ### Modules
 #### `index.js` - mongoose with mongoDB localhost, `mongoose.connect()` & `mongoose.disconnect()`
